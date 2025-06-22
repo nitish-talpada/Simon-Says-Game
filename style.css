@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+    background-color: #1E1E2D; 
+    color: #F0F0F0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn{
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;
+    gap: 1rem; 
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 2px solid #2a2c35;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.4), -5px -5px 10px rgba(255,255,255,0.1);
+    margin: 1.5rem;
+}
+
+.btn:active {
+    transform: translateY(2px) scale(0.98);     
+    box-shadow: inset 0 4px 8px rgba(0,0,0,0.4);  
+}
+
+.btn-container{
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;
+    gap: 1rem; 
+}
+
+.yellow{
+    background-color: #f99b45;
+}
+
+.red{
+    background-color: #d95980;
+}
+
+.purple{
+    background-color: #819ff9;
+}
+
+.green{
+    background-color: #63aac0;
+}
+
+.flash{
+    background-color: white;
+}
+
+.userFlash{
+    background-color: green;
+}
